@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toss-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.toss-image {
+  width: 150px;
+  height: 150px;
+}
+
+.toss-result {
+  display: flex;
+}
+
+.btn {
+  background-color: #f9d423;
+  color: #e2a139;
+  padding: 10px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+
+.result {
+  font-weight: 500;
+  margin-right: 10px;
+}
